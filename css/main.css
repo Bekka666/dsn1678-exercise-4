@@ -29,7 +29,7 @@ section {
 }
 
 .js-dipper-fade {
-	-webkit-animation: dipper-fade 1s linear;
+	-webkit-animation: dipper-fade 1s linear forwards;
 }
 
 @-webkit-keyframes dipper-fade {
