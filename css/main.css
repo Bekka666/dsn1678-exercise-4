@@ -23,5 +23,22 @@ section {
 	background-size: cover;
 }
 
-.dipper-section {
+.dipper {
+	width: 300px;
+	opacity: 0;
 }
+
+.js-dipper-fade {
+	-webkit-animation: dipper-fade 1s linear;
+}
+
+@-webkit-keyframes dipper-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
